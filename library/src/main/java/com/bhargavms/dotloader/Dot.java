@@ -27,7 +27,6 @@ class Dot {
 
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setColor(mColors[mCurrentColorIndex]);
-        mPaint.setShadowLayer(5.5f, 6.0f, 6.0f, Color.BLACK);
         mPaint.setStyle(Paint.Style.FILL);
     }
 
